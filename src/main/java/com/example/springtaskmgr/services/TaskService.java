@@ -20,7 +20,7 @@ public class TaskService {
 
     public static class TaskNotFoundException extends IllegalStateException{
         public TaskNotFoundException(Integer id){
-            super("Task with id "+ id + "not found");
+            super("Task with id "+ id + " not found");
         }
     }
 
